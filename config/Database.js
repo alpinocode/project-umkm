@@ -5,3 +5,5 @@ const db = new Sequelize('projectumkm', 'root', '', {
     port: process.env.DB_PORT,
     dialect: 'mysql'
 })
+
+export default db
