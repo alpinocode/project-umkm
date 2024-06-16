@@ -11,7 +11,7 @@ const port = process.env.PORT
 // express implementasi 
 const app = express()
 
-app.arguments(express.json())
+app.use(express.json())
 
 app.listen(port, () => {
     console.log(`Server berjalan pada local, ${port}`)
